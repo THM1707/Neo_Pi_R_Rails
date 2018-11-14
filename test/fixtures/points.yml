@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  user: one
+  p_a: 1
+  p_c: 1
+  p_o: 1
+  p_n: 1
+  p_e: 1
+
+two:
+  user: two
+  p_a: 1
+  p_c: 1
+  p_o: 1
+  p_n: 1
+  p_e: 1

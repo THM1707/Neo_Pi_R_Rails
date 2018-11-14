@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: 
+  low: 
+  medium: 
+  high: MyString
+
+two:
+  name: 
+  low: 
+  medium: 
+  high: MyString
