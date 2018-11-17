@@ -12,8 +12,11 @@
 
 ActiveRecord::Schema.define(version: 2018_10_31_163113) do
 
+  # These are extensions that must be enabled in order to support this database
+  enable_extension "plpgsql"
+
   create_table "points", force: :cascade do |t|
-    t.integer "user_id"
+    t.bigint "user_id"
     t.integer "p_a"
     t.integer "p_c"
     t.integer "p_o"
@@ -51,4 +54,5 @@ ActiveRecord::Schema.define(version: 2018_10_31_163113) do
     t.integer "gender"
   end
 
+  add_foreign_key "points", "users"
 end
