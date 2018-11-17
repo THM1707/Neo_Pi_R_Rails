@@ -67,4 +67,3 @@ production:
   <<: *default
   database: noice_production
   username: minh
-  password: <%= ENV['DATABASE_PASSWORD'] %>
