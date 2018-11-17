@@ -51,4 +51,12 @@ class Message
     'Point updated'
   end
 
+  def self.have_point
+    'Point available'
+  end
+
+  def self.no_point
+    'No history'
+  end
+
 end
